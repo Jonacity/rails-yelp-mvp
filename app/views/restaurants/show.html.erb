@@ -3,5 +3,7 @@
   <li>Address: <%= @restaurant.address %></li>
   <li>Phone: <%= @restaurant.phone_number %></li>
   <li>Category: <%= @restaurant.category %></li>
-  <li>Last review: <%= @restaurant.reviews.last.content %></li>
 </ul>
+
+<h2>Last review</h2>
+<p><%= @restaurant.reviews.last.content %></p>
